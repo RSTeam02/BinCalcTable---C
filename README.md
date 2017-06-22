@@ -5,7 +5,7 @@ The task is based on the CalcSpreadSheet project in JS, this is an approach in C
 
 app structure:
 
-main.c: starts the main app with input requests.
++ main.c: starts the main app with input requests.
 
 + binOperation: 
 	=> calcTable.c: returns the generated string table
@@ -19,7 +19,7 @@ main.c: starts the main app with input requests.
 	=> structOutput.h: creates an input type (instance) for the commutativity and result
 
 compile with linux gcc e.g.:
-gcc main.c ./binOperation/calcTable.c ./binOperation/operation.c ./exchange/swap.c ./fileIO/fileIO.c -std=c99 -o calcTable
+~/gcc main.c ./binOperation/calcTable.c ./binOperation/operation.c ./exchange/swap.c ./fileIO/fileIO.c -std=c99 -o calcTable
 
 execute:
 ./calcTable
